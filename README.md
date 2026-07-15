@@ -48,7 +48,7 @@ CloudArchSecBench requires Python 3.10 or newer.
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CloudArchSecBench.git
+git clone https://github.com/Quanta-of-solitude/CloudArchSecBench.git
 cd CloudArchSecBench
 ```
 
