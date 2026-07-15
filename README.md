@@ -2,6 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21381553.svg)](https://doi.org/10.5281/zenodo.21381553)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![CI](https://github.com/Quanta-of-solitude/CloudArchSecBench/actions/workflows/python.yml/badge.svg)
 
 CloudArchSecBench is an open-source Python framework for evaluating structured AWS cloud architectures using transparent, extensible, rule-based analysis.
 
