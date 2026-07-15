@@ -1,15 +1,15 @@
 cff-version: 1.2.0
-
 title: CloudArchSecBench
-
-message: "If you use this software, please cite it."
+message: "If you use this software, please cite it as follows."
+type: software
 
 authors:
   - family-names: Bharadwaj
     given-names: Sanjeev Kumar
 
-version: 0.1.0
-
-date-released: 2026-07-09
-
+version: "0.1.0"
+doi: 10.5281/zenodo.21381553
+date-released: 2026-07-15
 license: MIT
+
+repository-code: https://github.com/Quanta-of-solitude/CloudArchSecBench

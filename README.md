@@ -1,4 +1,7 @@
 # CloudArchSecBench
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21381553.svg)](https://doi.org/10.5281/zenodo.21381553)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
 CloudArchSecBench is an open-source Python framework for evaluating structured AWS cloud architectures using transparent, extensible, rule-based analysis.
 
@@ -333,11 +336,16 @@ CloudArchSecBench is distributed under the MIT License. See `LICENSE`.
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`.
+If you use CloudArchSecBench in your research, please cite the archived software release:
 
-Until an archived release DOI is available, cite the software as:
+```text
+Sanjeev Kumar Bharadwaj. (2026). CloudArchSecBench (Version 0.1.0) [Software].
+Zenodo. https://doi.org/10.5281/zenodo.21381553
+```
 
-> Bharadwaj, S. K. (2026). CloudArchSecBench (Version 0.1.0) [Computer software].
+The latest version of the software is available on GitHub:
+
+https://github.com/Quanta-of-solitude/CloudArchSecBench
 
 ## AI usage
 
