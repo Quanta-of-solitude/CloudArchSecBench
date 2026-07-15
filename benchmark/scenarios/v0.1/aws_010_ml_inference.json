@@ -1,0 +1,29 @@
+{
+  "id": "AWS-010",
+  "title": "Machine Learning Inference API",
+  "difficulty": "hard",
+  "domain": "machine-learning",
+  "provider": "AWS",
+  "problem_statement": "Design a scalable AWS architecture for serving machine learning inference requests through a REST API.",
+  "requirements": [
+    "HTTPS",
+    "Scalable inference",
+    "Monitoring",
+    "Logging",
+    "Private model storage",
+    "High availability"
+  ],
+  "expected_components": [
+    "API Gateway",
+    "Lambda",
+    "S3",
+    "CloudWatch",
+    "IAM Role"
+  ],
+  "security_expectations": [
+    "Encrypted model storage",
+    "IAM roles",
+    "Logging",
+    "Monitoring"
+  ]
+}

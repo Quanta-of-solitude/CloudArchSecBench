@@ -1,0 +1,24 @@
+{
+  "id": "AWS-004",
+  "title": "E-commerce Platform",
+  "difficulty": "advanced",
+  "domain": "ecommerce",
+  "provider": "AWS",
+  "problem_statement": "Design a secure and highly available AWS architecture for an e-commerce platform.",
+  "requirements": [
+    "Support user accounts and payments",
+    "Use private database subnets",
+    "Include WAF protection",
+    "Enable backups and monitoring",
+    "Use multiple availability zones",
+    "Support image storage"
+  ],
+  "expected_components": ["Route53", "CloudFront", "WAF", "ALB", "EC2", "RDS", "S3", "CloudWatch"],
+  "security_expectations": [
+    "WAF should protect public entry points",
+    "Database should be private and encrypted",
+    "Backups should be enabled",
+    "IAM roles should be used",
+    "Logging and monitoring should be enabled"
+  ]
+}

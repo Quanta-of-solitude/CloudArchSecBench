@@ -1,0 +1,9 @@
+{
+  "name": "AWS-ArchBench",
+  "version": "0.1",
+  "description": "A benchmark for evaluating LLM-generated AWS cloud architectures for security, reliability, networking, and operational risks.",
+  "scenario_count": 5,
+  "provider": "AWS",
+  "difficulty_levels": ["easy", "intermediate", "advanced"],
+  "schema": "architecture_schema.md"
+}

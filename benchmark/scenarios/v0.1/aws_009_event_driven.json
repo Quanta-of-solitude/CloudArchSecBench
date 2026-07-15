@@ -1,0 +1,29 @@
+{
+  "id": "AWS-009",
+  "title": "Event-Driven Order Processing",
+  "difficulty": "medium",
+  "domain": "event-driven",
+  "provider": "AWS",
+  "problem_statement": "Design an event-driven AWS architecture for processing customer orders asynchronously.",
+  "requirements": [
+    "Asynchronous processing",
+    "Reliable message delivery",
+    "Monitoring",
+    "Logging",
+    "High availability"
+  ],
+  "expected_components": [
+    "API Gateway",
+    "Lambda",
+    "SQS",
+    "SNS",
+    "CloudWatch",
+    "IAM Role"
+  ],
+  "security_expectations": [
+    "IAM roles",
+    "Logging",
+    "Monitoring",
+    "Encryption"
+  ]
+}

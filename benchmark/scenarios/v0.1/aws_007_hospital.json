@@ -1,0 +1,34 @@
+{
+  "id": "AWS-007",
+  "title": "Hospital Management System",
+  "difficulty": "hard",
+  "domain": "healthcare",
+  "provider": "AWS",
+  "problem_statement": "Design a secure AWS architecture for a hospital management system storing patient records and appointment information.",
+  "requirements": [
+    "Protect patient data",
+    "Private database",
+    "HTTPS",
+    "Backups",
+    "Logging",
+    "Monitoring",
+    "High availability"
+  ],
+  "expected_components": [
+    "ALB",
+    "EC2",
+    "RDS",
+    "S3",
+    "CloudWatch",
+    "IAM Role",
+    "ACM"
+  ],
+  "security_expectations": [
+    "Private database",
+    "Encryption",
+    "Backups",
+    "IAM roles",
+    "Logging",
+    "Monitoring"
+  ]
+}

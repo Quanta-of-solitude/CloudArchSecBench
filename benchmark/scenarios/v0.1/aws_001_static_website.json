@@ -1,0 +1,22 @@
+{
+  "id": "AWS-001",
+  "title": "Static Company Website",
+  "difficulty": "easy",
+  "domain": "static_web",
+  "provider": "AWS",
+  "problem_statement": "Design a secure and low-cost AWS architecture for hosting a static company website.",
+  "requirements": [
+    "Support HTTPS",
+    "Serve 10,000 visitors per day",
+    "Keep monthly cost low",
+    "Prefer high availability",
+    "Avoid public write access to storage"
+  ],
+  "expected_components": ["S3", "CloudFront", "ACM", "Route53"],
+  "security_expectations": [
+    "S3 bucket should not be publicly writable",
+    "HTTPS should be enabled",
+    "CloudFront should be used as public entry point",
+    "Logging should be enabled"
+  ]
+}

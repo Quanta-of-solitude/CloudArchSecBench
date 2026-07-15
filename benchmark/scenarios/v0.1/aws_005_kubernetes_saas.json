@@ -1,0 +1,24 @@
+{
+  "id": "AWS-005",
+  "title": "Kubernetes SaaS Application",
+  "difficulty": "advanced",
+  "domain": "kubernetes",
+  "provider": "AWS",
+  "problem_statement": "Design a secure AWS architecture for a multi-tenant SaaS application running on Kubernetes.",
+  "requirements": [
+    "Use Kubernetes",
+    "Expose application through a secure public endpoint",
+    "Keep databases private",
+    "Enable monitoring and logging",
+    "Use IAM roles",
+    "Support high availability"
+  ],
+  "expected_components": ["EKS", "ALB", "RDS", "IAM Role", "CloudWatch", "S3", "WAF"],
+  "security_expectations": [
+    "EKS workloads should not expose databases publicly",
+    "RDS should be private and encrypted",
+    "IAM roles should be used",
+    "WAF should protect public traffic",
+    "Monitoring and logging should be enabled"
+  ]
+}

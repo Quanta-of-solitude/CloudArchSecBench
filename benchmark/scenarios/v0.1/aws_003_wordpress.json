@@ -1,0 +1,23 @@
+{
+  "id": "AWS-003",
+  "title": "WordPress Blog",
+  "difficulty": "intermediate",
+  "domain": "web_app",
+  "provider": "AWS",
+  "problem_statement": "Design a secure AWS architecture for a WordPress blog with moderate traffic.",
+  "requirements": [
+    "Use a managed database",
+    "Support HTTPS",
+    "Provide backups",
+    "Avoid direct public database access",
+    "Support future scaling"
+  ],
+  "expected_components": ["ALB", "EC2", "RDS", "S3", "CloudWatch", "ACM"],
+  "security_expectations": [
+    "RDS should be private",
+    "Database backups should be enabled",
+    "EC2 should not expose unnecessary ports",
+    "HTTPS should be enabled",
+    "Monitoring should be enabled"
+  ]
+}

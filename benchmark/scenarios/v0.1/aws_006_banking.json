@@ -1,0 +1,35 @@
+{
+  "id": "AWS-006",
+  "title": "Online Banking Platform",
+  "difficulty": "hard",
+  "domain": "banking",
+  "provider": "AWS",
+  "problem_statement": "Design a secure and highly available AWS architecture for an online banking platform supporting customer accounts, transactions, and loan management.",
+  "requirements": [
+    "Support HTTPS",
+    "Protect customer financial data",
+    "Multi-AZ deployment",
+    "Database encryption",
+    "Automated backups",
+    "Continuous monitoring",
+    "Support high availability"
+  ],
+  "expected_components": [
+    "Route53",
+    "CloudFront",
+    "WAF",
+    "ALB",
+    "EC2",
+    "RDS",
+    "CloudWatch",
+    "IAM Role"
+  ],
+  "security_expectations": [
+    "Database must be private",
+    "Encryption enabled",
+    "IAM roles used",
+    "Logging enabled",
+    "Monitoring enabled",
+    "WAF enabled"
+  ]
+}

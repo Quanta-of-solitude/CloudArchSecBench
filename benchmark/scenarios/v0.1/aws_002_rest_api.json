@@ -1,0 +1,22 @@
+{
+  "id": "AWS-002",
+  "title": "Small REST API",
+  "difficulty": "easy",
+  "domain": "api",
+  "provider": "AWS",
+  "problem_statement": "Design a secure AWS architecture for a small REST API used by a mobile application.",
+  "requirements": [
+    "Support HTTPS",
+    "Use a managed database",
+    "Protect database from public access",
+    "Enable monitoring",
+    "Support moderate traffic"
+  ],
+  "expected_components": ["API Gateway", "Lambda", "RDS", "CloudWatch", "IAM Role"],
+  "security_expectations": [
+    "Database should be private",
+    "Encryption should be enabled",
+    "IAM roles should be used",
+    "Monitoring and logging should be enabled"
+  ]
+}

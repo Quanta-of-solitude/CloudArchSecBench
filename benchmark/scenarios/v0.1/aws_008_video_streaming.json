@@ -1,0 +1,29 @@
+{
+  "id": "AWS-008",
+  "title": "Video Streaming Platform",
+  "difficulty": "medium",
+  "domain": "media",
+  "provider": "AWS",
+  "problem_statement": "Design an AWS architecture for a video streaming platform serving thousands of concurrent users.",
+  "requirements": [
+    "Serve static and video content",
+    "Low latency",
+    "HTTPS",
+    "High availability",
+    "Scalable storage"
+  ],
+  "expected_components": [
+    "CloudFront",
+    "S3",
+    "Route53",
+    "ALB",
+    "EC2",
+    "CloudWatch"
+  ],
+  "security_expectations": [
+    "HTTPS enabled",
+    "Logging enabled",
+    "Monitoring enabled",
+    "Encrypted storage"
+  ]
+}
